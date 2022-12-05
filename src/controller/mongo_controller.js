@@ -4,7 +4,7 @@
 
 var log = require('../../logger/logger');
 var config = require('config');
-var Joi = require('@hapi/joi');
+var Joi = require('joi');
 var userFactory = require('../factory/mongo_user_factory');
 exports.start = {
     auth : false,
